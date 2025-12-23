@@ -1,0 +1,46 @@
+## [ Thư mục biên dịch ]
+bin/
+obj/
+/build/
+
+## [ Visual Studio ]
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+## [ Visual Studio Code ]
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## [ .NET Core / .NET 5+ ]
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## [ Thư mục lưu trữ Package ]
+*.nupkg
+# Không nên push thư mục packages của NuGet
+**/packages/*
+!**/packages/build/
+
+## [ Hệ điều hành ]
+Thumbs.db
+desktop.ini
+.DS_Store
+
+## [ User-specific files ]
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## [ Publish output ]
+publish/
